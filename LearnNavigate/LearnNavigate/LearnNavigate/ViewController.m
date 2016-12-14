@@ -28,13 +28,15 @@
     self.navigationItem.leftBarButtonItem = item;
     self.navigationItem.title = @"UINavigationBar使用总结";
     self.navigationController.navigationBar.tintColor = [UIColor redColor];
-    
+
+    self.view.backgroundColor = [UIColor grayColor];
+
 //    [self initNavView];
     [self initView];
 }
 
 -(UIStatusBarStyle)preferredStatusBarStyle{
-    return UIStatusBarStyleLightContent;
+    return UIStatusBarStyleDefault;
 }
 
 - (void)initNavView
