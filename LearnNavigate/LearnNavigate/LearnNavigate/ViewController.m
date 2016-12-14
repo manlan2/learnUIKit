@@ -30,6 +30,7 @@
     self.navigationController.navigationBar.tintColor = [UIColor redColor];
 
     self.view.backgroundColor = [UIColor grayColor];
+    self.view.backgroundColor = [UIColor grayColor];
 
 //    [self initNavView];
     [self initView];
