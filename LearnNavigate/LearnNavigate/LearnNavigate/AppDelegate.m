@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+//#import "xibViewController.h"
+#import "xibViewController2.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +19,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    xibViewController2 *xibCtl2 = [[xibViewController2 alloc]init];
+    self.window.rootViewController = xibCtl2;
+
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

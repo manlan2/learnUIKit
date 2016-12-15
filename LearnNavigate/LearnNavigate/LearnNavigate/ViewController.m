@@ -27,10 +27,10 @@
     
     self.navigationItem.leftBarButtonItem = item;
     self.navigationItem.title = @"UINavigationBar使用总结";
-    self.navigationController.navigationBar.tintColor = [UIColor redColor];
+//    self.navigationController.navigationBar.tintColor = [UIColor redColor];
 
-    self.view.backgroundColor = [UIColor grayColor];
-    self.view.backgroundColor = [UIColor grayColor];
+//    self.view.backgroundColor = [UIColor grayColor];
+//    self.view.backgroundColor = [UIColor grayColor];
 
 //    [self initNavView];
     [self initView];
@@ -68,7 +68,7 @@
     [self.navigationController.navigationBar setBackgroundImage:[UIImage imageNamed:@"big2.png"] forBarMetrics:UIBarMetricsDefault];
     //如果图片太大会向上扩展侵占状态栏的位置，在状态栏下方显示
     //clipsToBounds就是把多余的图片裁剪掉
-    self.navigationController.navigationBar.clipsToBounds=YES;
+    self.navigationController.navigationBar.clipsToBounds = YES;
 }
 
 - (void)initView
