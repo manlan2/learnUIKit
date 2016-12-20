@@ -10,4 +10,7 @@
 
 @interface myCell2_code : UITableViewCell
 
+@property(nonatomic, strong) UILabel *label1;
+@property(nonatomic, strong) UILabel *label2;
+
 @end

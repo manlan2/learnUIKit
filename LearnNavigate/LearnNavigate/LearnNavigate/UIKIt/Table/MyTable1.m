@@ -8,6 +8,10 @@
 
 #import "MyTable1.h"
 #import "myCell1.h"
+#import "myCell2-code.h"
+
+#define KMycell1 @"myCell1"
+#define KMycell2 @"myCell2"
 
 @interface MyTable1 ()
 
@@ -26,7 +30,9 @@
     
     self.tableView.dataSource = self;
     self.tableView.delegate = self;
-    
+
+    [self.tableView registerNib:[UINib nibWithNibName:@"myCell1" bundle:nil] forCellReuseIdentifier:KMycell1];
+    [self.tableView registerClass:[myCell2_code class] forCellReuseIdentifier: KMycell2];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -43,7 +49,7 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
 
-    return 2;
+    return 1;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -61,16 +67,28 @@
 //    cell.textLabel.text = @"text1";
     
     // myCell1
-    static NSString *cellIdentifier = @"myCell1";
-    myCell1 *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier];
+//    static NSString *cellIdentifier = @"myCell1";
+//    myCell1 *cell = [tableView dequeueReusableCellWithIdentifier:KMycell1];
+//    
+//    if(cell == nil) {
+////        cell = [[[NSBundle mainBundle]loadNibNamed:@"myCell1" owner:nil options:nil] lastObject];
+//        cell = [[myCell1 alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:KMycell1];
+//    }
+    
+    // myCell2
+//    static NSString *cellIdentifier2 = @"myCell2";
+    
+    myCell2_code *cell = [tableView dequeueReusableCellWithIdentifier:KMycell2];
     
     if(cell == nil) {
-//        cell = [[[NSBundle mainBundle]loadNibNamed:@"myCell1" owner:nil options:nil] lastObject];
-        cell = [[myCell1 alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellIdentifier];
+        //        cell = [[[NSBundle mainBundle]loadNibNamed:@"myCell1" owner:nil options:nil] lastObject];
+        cell = [[myCell2_code alloc]initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:KMycell2];
     }
     
-//    cell.textLabel.text = @"text1";
-//    cell.label1.text = @"label1 text1";
+    // cell2
+    cell.label1.text = @"cell-label11-text";
+    cell.label2.text = @"cell-label12-text";
+    
     
     return cell;
 }
