@@ -38,16 +38,21 @@
 
 - (void)initUI
 {
+    // 错误：没有初始化哈，原来是这个问题的哈
+    
+//    self.label1 = [[UILabel alloc]init];
+    self.label2 = [[UILabel alloc]init];
+    
     self.label1.text = @"cell2-label1";
-    self.label1.frame = CGRectMake(10, 2, 30, 30);
+    self.label1.frame = CGRectMake(10, 2, 200, 50);
     self.label1.textColor = [UIColor redColor];
 
     self.label2.text = @"label2 text";
-    self.label2.frame = CGRectMake(30, 2, 30, 30);
+    self.label2.frame = CGRectMake(100, 2, 200, 50);
     self.label2.textColor = [UIColor redColor];
 
-    [self addSubview:self.label1];
-    [self addSubview:self.label2];
+    [self.contentView addSubview:self.label1];
+    [self.contentView addSubview:self.label2];
     
     [self.label1 setBackgroundColor:[UIColor yellowColor]];
     [self.label2 setBackgroundColor:[UIColor yellowColor]];
