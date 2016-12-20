@@ -65,7 +65,8 @@
     myCell1 *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier];
     
     if(cell == nil) {
-        cell = [[[NSBundle mainBundle]loadNibNamed:@"myCell1" owner:nil options:nil] lastObject];
+//        cell = [[[NSBundle mainBundle]loadNibNamed:@"myCell1" owner:nil options:nil] lastObject];
+        cell = [[myCell1 alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellIdentifier];
     }
     
 //    cell.textLabel.text = @"text1";

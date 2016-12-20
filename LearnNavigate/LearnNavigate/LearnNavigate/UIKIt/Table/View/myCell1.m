@@ -10,10 +10,10 @@
 
 @implementation myCell1
 
-//- (void)awakeFromNib {
-//    [super awakeFromNib];
-//    // Initialization code
-//}
+- (void)awakeFromNib {
+    [super awakeFromNib];
+    // Initialization code
+}
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
     [super setSelected:selected animated:animated];
@@ -39,6 +39,12 @@
     self.label2.textColor = [UIColor redColor];
     
     [self.contentView addSubview:self.label2];
+    
+    self.cellLabel1.text = @"cellLabel1";
+    self.cellLabel1.textColor = [UIColor redColor];
+    
+    self.cellLabel2.text = @"cellLabel2";
+    self.cellLabel2.textColor = [UIColor blueColor];
 }
 
 @end

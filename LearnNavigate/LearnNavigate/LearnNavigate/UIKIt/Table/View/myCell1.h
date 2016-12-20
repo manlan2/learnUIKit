@@ -13,4 +13,7 @@
 @property (nonatomic, strong) UILabel *label1;
 @property (nonatomic, strong) UILabel *label2;
 
+@property (weak, nonatomic) IBOutlet UILabel *cellLabel1;
+@property (weak, nonatomic) IBOutlet UILabel *cellLabel2;
+
 @end
