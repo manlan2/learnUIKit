@@ -58,7 +58,7 @@
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
     return self.tableViewViewModel.listDataArray.count;
 }
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+- (LGUITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     NSAssert(YES, @"子类必须重写这个方法: tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath");
     LGTableViewCell *cell;
     return cell;

@@ -47,7 +47,7 @@
     return self.dataArray.count;
 }
 
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+- (LGUITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     LGRowTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:[LGRowTableViewCell lg_name] forIndexPath:indexPath];
     cell.dataModel = self.dataArray[indexPath.row];
     cell.bottomLineView.hidden = NO;

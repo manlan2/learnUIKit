@@ -146,7 +146,7 @@
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
     return self.currentScrollViewModel.listDataArray.count;
 }
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+- (LGUITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     NSString *error = [NSString stringWithFormat:@"%@ 必须重写这个%p方法", [[self class] lg_name], __func__];
     NSAssert(YES, error);
     return nil;

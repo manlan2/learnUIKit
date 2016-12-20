@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface LGTableViewCell : UITableViewCell
+@interface LGTableViewCell : LGUITableViewCell
 @property (nonatomic, strong, readonly) UIView       *coverImageView;
 @property (nonatomic, strong, readonly) UIView       *bottomLineView;
 @property (nonatomic, strong, readonly) UIView       *topLineView;

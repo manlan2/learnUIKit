@@ -9,6 +9,8 @@
 #import "AppDelegate.h"
 //#import "xibViewController.h"
 #import "xibViewController2.h"
+#import "ViewController.h"
+#import "MyTable1.h"
 
 @interface AppDelegate ()
 
@@ -20,8 +22,13 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
-    xibViewController2 *xibCtl2 = [[xibViewController2 alloc]init];
-    self.window.rootViewController = xibCtl2;
+//    xibViewController2 *xibCtl2 = [[xibViewController2 alloc]init];
+//    ViewController *xibCtl2 = [[ViewController alloc]init];
+    
+    MyTable1 *table1 = [[MyTable1 alloc]init];
+    UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController: table1];
+    
+    self.window.rootViewController = nav;
 
     [self.window makeKeyAndVisible];
     return YES;
