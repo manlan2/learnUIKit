@@ -14,6 +14,8 @@
 		7B4CF6F81E02B51E00517AA0 /* xibViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4CF6F71E02B51E00517AA0 /* xibViewController.m */; };
 		7B4CF6FC1E02B7B900517AA0 /* xibViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4CF6FA1E02B7B900517AA0 /* xibViewController2.m */; };
 		7B4CF6FD1E02B7B900517AA0 /* xibViewController2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B4CF6FB1E02B7B900517AA0 /* xibViewController2.xib */; };
+		7B9BAA691E0A2C040001788F /* SegmentVC1.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B9BAA681E0A2C040001788F /* SegmentVC1.m */; };
+		7B9BAA6C1E0A2C4A0001788F /* SegmentVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B9BAA6B1E0A2C4A0001788F /* SegmentVC.m */; };
 		7BBBB0751E00E32E00E983FB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BBBB0741E00E32E00E983FB /* main.m */; };
 		7BBBB0781E00E32E00E983FB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BBBB0771E00E32E00E983FB /* AppDelegate.m */; };
 		7BBBB07B1E00E32E00E983FB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BBBB07A1E00E32E00E983FB /* ViewController.m */; };
@@ -22,6 +24,7 @@
 		7BBBB0831E00E32E00E983FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BBBB0811E00E32E00E983FB /* LaunchScreen.storyboard */; };
 		A003509F645248CCB5E9016B /* xibViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A00359D931CEFB686A192536 /* xibViewController.xib */; };
 		A00350CE76DF63C103FCBA2A /* LGUITableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A00350D554410ACD60600868 /* LGUITableViewCell.m */; };
+		A00351758BB9E11FCF10E0A2 /* AnimVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A0035811BFB3223B908F24B9 /* AnimVC.m */; };
 		A003564E3DD1822941E264DC /* 2view.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0035102DCD4CA1B1ECD5292 /* 2view.xib */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +41,10 @@
 		7B4CF6F91E02B7B900517AA0 /* xibViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xibViewController2.h; sourceTree = "<group>"; };
 		7B4CF6FA1E02B7B900517AA0 /* xibViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = xibViewController2.m; sourceTree = "<group>"; };
 		7B4CF6FB1E02B7B900517AA0 /* xibViewController2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = xibViewController2.xib; sourceTree = "<group>"; };
+		7B9BAA671E0A2C040001788F /* SegmentVC1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegmentVC1.h; sourceTree = "<group>"; };
+		7B9BAA681E0A2C040001788F /* SegmentVC1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SegmentVC1.m; sourceTree = "<group>"; };
+		7B9BAA6A1E0A2C4A0001788F /* SegmentVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegmentVC.h; sourceTree = "<group>"; };
+		7B9BAA6B1E0A2C4A0001788F /* SegmentVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SegmentVC.m; sourceTree = "<group>"; };
 		7BBBB0701E00E32E00E983FB /* LearnNavigate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearnNavigate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BBBB0741E00E32E00E983FB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7BBBB0761E00E32E00E983FB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -50,6 +57,8 @@
 		7BBBB0841E00E32E00E983FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A00350D554410ACD60600868 /* LGUITableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGUITableViewCell.m; sourceTree = "<group>"; };
 		A0035102DCD4CA1B1ECD5292 /* 2view.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = 2view.xib; sourceTree = "<group>"; };
+		A00352F977BE4A3976ED8BE2 /* AnimVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimVC.h; sourceTree = "<group>"; };
+		A0035811BFB3223B908F24B9 /* AnimVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimVC.m; sourceTree = "<group>"; };
 		A00359512B5F8B5A977DF0C2 /* LGUITableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGUITableViewCell.h; sourceTree = "<group>"; };
 		A00359D931CEFB686A192536 /* xibViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = xibViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -73,6 +82,17 @@
 				A00351EF2C827DC9AB86D972 /* View */,
 			);
 			name = Table;
+			sourceTree = "<group>";
+		};
+		7B9BAA661E0A2BEF0001788F /* SegmentedControl */ = {
+			isa = PBXGroup;
+			children = (
+				7B9BAA671E0A2C040001788F /* SegmentVC1.h */,
+				7B9BAA681E0A2C040001788F /* SegmentVC1.m */,
+				7B9BAA6A1E0A2C4A0001788F /* SegmentVC.h */,
+				7B9BAA6B1E0A2C4A0001788F /* SegmentVC.m */,
+			);
+			path = SegmentedControl;
 			sourceTree = "<group>";
 		};
 		7BBBB0671E00E32E00E983FB = {
@@ -154,9 +174,12 @@
 		A00351F8FDED95E671CA3357 /* UIKIt */ = {
 			isa = PBXGroup;
 			children = (
+				7B9BAA661E0A2BEF0001788F /* SegmentedControl */,
 				7B120BDF1E0907570023FDE2 /* Table */,
 				A00350D554410ACD60600868 /* LGUITableViewCell.m */,
 				A00359512B5F8B5A977DF0C2 /* LGUITableViewCell.h */,
+				A0035CA2AD56C887FABEC313 /* SegmentedControl */,
+				A00359FD894286A80FBFCFD8 /* Animation */,
 			);
 			path = UIKIt;
 			sourceTree = "<group>";
@@ -166,6 +189,22 @@
 			children = (
 			);
 			path = masonry;
+			sourceTree = "<group>";
+		};
+		A00359FD894286A80FBFCFD8 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				A0035811BFB3223B908F24B9 /* AnimVC.m */,
+				A00352F977BE4A3976ED8BE2 /* AnimVC.h */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
+		A0035CA2AD56C887FABEC313 /* SegmentedControl */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SegmentedControl;
 			sourceTree = "<group>";
 		};
 		A0035DEEECEF34ED050F8745 /* Module */ = {
@@ -261,7 +300,10 @@
 				7B4CF6FC1E02B7B900517AA0 /* xibViewController2.m in Sources */,
 				7BBBB0751E00E32E00E983FB /* main.m in Sources */,
 				7B120BE31E0907820023FDE2 /* MyTable1.m in Sources */,
+				7B9BAA691E0A2C040001788F /* SegmentVC1.m in Sources */,
+				7B9BAA6C1E0A2C4A0001788F /* SegmentVC.m in Sources */,
 				A00350CE76DF63C103FCBA2A /* LGUITableViewCell.m in Sources */,
+				A00351758BB9E11FCF10E0A2 /* AnimVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
