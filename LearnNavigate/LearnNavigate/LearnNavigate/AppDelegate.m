@@ -33,9 +33,10 @@
     [self testNavVC];
 
     // 动画
-    [self animVC];
-
+    AnimVC *animVc = [[AnimVC alloc] init];
+    self.window.rootViewController = animVc;
     [self.window makeKeyAndVisible];
+
     return YES;
 }
 
