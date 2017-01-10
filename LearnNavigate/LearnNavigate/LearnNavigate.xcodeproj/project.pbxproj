@@ -14,13 +14,14 @@
 		7B4CF6F81E02B51E00517AA0 /* xibViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4CF6F71E02B51E00517AA0 /* xibViewController.m */; };
 		7B4CF6FC1E02B7B900517AA0 /* xibViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4CF6FA1E02B7B900517AA0 /* xibViewController2.m */; };
 		7B4CF6FD1E02B7B900517AA0 /* xibViewController2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B4CF6FB1E02B7B900517AA0 /* xibViewController2.xib */; };
+		7B8A6A711E2490A800F9DB9B /* icon_radbag@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B8A6A701E2490A800F9DB9B /* icon_radbag@2x.png */; };
+		7B8A6A731E24FFCC00F9DB9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B8A6A721E24FFCC00F9DB9B /* Assets.xcassets */; };
 		7B9BAA691E0A2C040001788F /* SegmentVC1.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B9BAA681E0A2C040001788F /* SegmentVC1.m */; };
 		7B9BAA6C1E0A2C4A0001788F /* SegmentVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B9BAA6B1E0A2C4A0001788F /* SegmentVC.m */; };
 		7BBBB0751E00E32E00E983FB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BBBB0741E00E32E00E983FB /* main.m */; };
 		7BBBB0781E00E32E00E983FB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BBBB0771E00E32E00E983FB /* AppDelegate.m */; };
 		7BBBB07B1E00E32E00E983FB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BBBB07A1E00E32E00E983FB /* ViewController.m */; };
 		7BBBB07E1E00E32E00E983FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BBBB07C1E00E32E00E983FB /* Main.storyboard */; };
-		7BBBB0801E00E32E00E983FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BBBB07F1E00E32E00E983FB /* Assets.xcassets */; };
 		7BBBB0831E00E32E00E983FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BBBB0811E00E32E00E983FB /* LaunchScreen.storyboard */; };
 		A003509F645248CCB5E9016B /* xibViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A00359D931CEFB686A192536 /* xibViewController.xib */; };
 		A00350CE76DF63C103FCBA2A /* LGUITableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A00350D554410ACD60600868 /* LGUITableViewCell.m */; };
@@ -41,6 +42,8 @@
 		7B4CF6F91E02B7B900517AA0 /* xibViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xibViewController2.h; sourceTree = "<group>"; };
 		7B4CF6FA1E02B7B900517AA0 /* xibViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = xibViewController2.m; sourceTree = "<group>"; };
 		7B4CF6FB1E02B7B900517AA0 /* xibViewController2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = xibViewController2.xib; sourceTree = "<group>"; };
+		7B8A6A701E2490A800F9DB9B /* icon_radbag@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_radbag@2x.png"; sourceTree = "<group>"; };
+		7B8A6A721E24FFCC00F9DB9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7B9BAA671E0A2C040001788F /* SegmentVC1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegmentVC1.h; sourceTree = "<group>"; };
 		7B9BAA681E0A2C040001788F /* SegmentVC1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SegmentVC1.m; sourceTree = "<group>"; };
 		7B9BAA6A1E0A2C4A0001788F /* SegmentVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegmentVC.h; sourceTree = "<group>"; };
@@ -52,7 +55,6 @@
 		7BBBB0791E00E32E00E983FB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		7BBBB07A1E00E32E00E983FB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		7BBBB07D1E00E32E00E983FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		7BBBB07F1E00E32E00E983FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7BBBB0821E00E32E00E983FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7BBBB0841E00E32E00E983FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A00350D554410ACD60600868 /* LGUITableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGUITableViewCell.m; sourceTree = "<group>"; };
@@ -98,6 +100,7 @@
 		7BBBB0671E00E32E00E983FB = {
 			isa = PBXGroup;
 			children = (
+				7B8A6A721E24FFCC00F9DB9B /* Assets.xcassets */,
 				7BBBB0721E00E32E00E983FB /* LearnNavigate */,
 				7BBBB0711E00E32E00E983FB /* Products */,
 			);
@@ -119,7 +122,7 @@
 				7BBBB0791E00E32E00E983FB /* ViewController.h */,
 				7BBBB07A1E00E32E00E983FB /* ViewController.m */,
 				7BBBB07C1E00E32E00E983FB /* Main.storyboard */,
-				7BBBB07F1E00E32E00E983FB /* Assets.xcassets */,
+				7B8A6A701E2490A800F9DB9B /* icon_radbag@2x.png */,
 				7BBBB0811E00E32E00E983FB /* LaunchScreen.storyboard */,
 				7BBBB0841E00E32E00E983FB /* Info.plist */,
 				7BBBB0731E00E32E00E983FB /* Supporting Files */,
@@ -275,12 +278,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B8A6A711E2490A800F9DB9B /* icon_radbag@2x.png in Resources */,
 				7BBBB0831E00E32E00E983FB /* LaunchScreen.storyboard in Resources */,
-				7BBBB0801E00E32E00E983FB /* Assets.xcassets in Resources */,
 				7BBBB07E1E00E32E00E983FB /* Main.storyboard in Resources */,
 				A003509F645248CCB5E9016B /* xibViewController.xib in Resources */,
 				7B120BE81E090B0B0023FDE2 /* myCell1.xib in Resources */,
 				A003564E3DD1822941E264DC /* 2view.xib in Resources */,
+				7B8A6A731E24FFCC00F9DB9B /* Assets.xcassets in Resources */,
 				7B4CF6FD1E02B7B900517AA0 /* xibViewController2.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
