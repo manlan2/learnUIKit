@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8a6a323-190d-4d9c-b8db-d22e8edcb651" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LearnNavigate.xcodeproj/project.xcworkspace/xcuserdata/wanhongbin.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="$PROJECT_DIR$/LearnNavigate.xcodeproj/project.xcworkspace/xcuserdata/wanhongbin.xcuserdatad/UserInterfaceState.xcuserstate" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LearnNavigate/AppDelegate.m" afterPath="$PROJECT_DIR$/LearnNavigate/AppDelegate.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LearnNavigate/UIKIt/Animation/AnimVC.m" afterPath="$PROJECT_DIR$/LearnNavigate/UIKIt/Animation/AnimVC.m" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -214,12 +211,20 @@
       <workItem from="1482290221212" duration="366000" />
       <workItem from="1482391913527" duration="542000" />
       <workItem from="1483932429730" duration="449000" />
-      <workItem from="1484013058950" duration="3194000" />
+      <workItem from="1484013058950" duration="3214000" />
     </task>
+    <task id="LOCAL-00001" summary="动画效果">
+      <created>1484016544479</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1484016544479</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5227000" />
+    <option name="totallyTimeSpent" value="5247000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="975" extended-state="6" />
@@ -248,6 +253,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="动画效果" />
+    <option name="LAST_COMMIT_MESSAGE" value="动画效果" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
