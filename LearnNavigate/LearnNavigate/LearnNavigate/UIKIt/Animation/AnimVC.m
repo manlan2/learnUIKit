@@ -10,14 +10,15 @@
 - (void)viewDidLoad {
 
     [super viewDidLoad];
-    [self.view setBackgroundColor:[UIColor clearColor]];
+    [self.view setBackgroundColor:[UIColor whiteColor]];
 
+//    [self formatNumbers];
     [self initAnimtion3];
 }
 
 - (void)initAnimtion3 {
 
-    UIImageView *imageView = [[UIImageView alloc] initWithFrame:CGRectMake(20, 100, 100, 100)];
+    UIImageView *imageView = [[UIImageView alloc] initWithFrame:CGRectMake(100, 100, 100, 100)];
     // 给图片控件添加图片对象
     [imageView setImage:[UIImage imageNamed:@"image_00000"]];
     //图片控件添加到视图上面去
@@ -28,7 +29,13 @@
     for(int i = 0; i <= 9; i ++) {
 
         //通过for 循环,把我所有的 图片存到数组里面
-        NSString *imageName = [NSString stringWithFormat:@"image_0000%d", i];
+        NSString *imageName;
+        if (i < 10) {
+            imageName = [NSString stringWithFormat:@"image_0000%d", i];
+        }else{
+            imageName = [NSString stringWithFormat:@"image_000%d", i];
+        }
+//        NSString *imageName = [NSString stringWithFormat:@"image_0000%d", i];
         NSLog(@"%@", imageName);
 
         UIImage  *image     = [UIImage imageNamed:imageName];
@@ -43,6 +50,20 @@
     imageView.animationDuration    = 0.20;
     //开始动画
     [imageView startAnimating];
+}
+
+- (void)formatNumbers {
+
+    for(int i = 0; i < 24; ++ i) {
+        NSString *imageName;
+        if (i < 10) {
+            imageName = [NSString stringWithFormat:@"image_0000%d", i];
+        }else{
+            imageName = [NSString stringWithFormat:@"image_000%d", i];
+        }
+//        NSString *imageName = [NSString stringWithFormat:@"image_0000%d", i];
+        NSLog(@"%@", imageName);
+    }
 }
 
 - (void)initAnimtion2 {
