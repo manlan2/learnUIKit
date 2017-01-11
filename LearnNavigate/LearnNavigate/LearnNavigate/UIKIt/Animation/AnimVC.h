@@ -8,4 +8,5 @@
 @interface AnimVC : UIViewController
 
 @property (nonatomic, strong) UIImageView *animationImageView;
+@property (nonatomic, strong) UIImageView *imageView;
 @end
