@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="redpackerViewController">
+            <connections>
+                <outlet property="checkButton" destination="Ysa-Mf-QTc" id="lAq-XK-icG"/>
+                <outlet property="checkButtonAction" destination="Ysa-Mf-QTc" id="QC6-5J-PXr"/>
+                <outlet property="closeButtonAction" destination="1ay-uo-6ZI" id="Lif-A2-Cs8"/>
+                <outlet property="moneyLabel" destination="V0I-nu-L3O" id="rip-nh-ant"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4Lh-zC-HIR">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <subviews>
+                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="effect_light" translatesAutoresizingMaskIntoConstraints="NO" id="vBb-rG-GxJ">
+                            <rect key="frame" x="0.0" y="54" width="375" height="375"/>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1ay-uo-6ZI">
+                            <rect key="frame" x="344" y="17" width="23" height="23"/>
+                            <state key="normal" image="rb_close"/>
+                        </button>
+                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="icon_radbag.png" translatesAutoresizingMaskIntoConstraints="NO" id="7iA-0b-Soh">
+                            <rect key="frame" x="89" y="116" width="198" height="155"/>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10元" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V0I-nu-L3O">
+                            <rect key="frame" x="168" y="216" width="40" height="21.5"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                            <color key="textColor" red="0.99607843139999996" green="0.2666666667" blue="0.20392156859999999" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ysa-Mf-QTc">
+                            <rect key="frame" x="107" y="301" width="161" height="29"/>
+                            <color key="backgroundColor" red="0.94509804249999996" green="0.2392156869" blue="0.24705882370000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="161" id="Hf9-Zk-LRl"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <state key="normal" title="立刻查看">
+                                <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.23137254900000001" green="0.23137254900000001" blue="0.23137254900000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="centerY" secondItem="1ay-uo-6ZI" secondAttribute="centerY" constant="305" id="BOl-ju-CKu"/>
+                        <constraint firstItem="V0I-nu-L3O" firstAttribute="centerX" secondItem="Ysa-Mf-QTc" secondAttribute="centerX" id="JrB-AY-YBr"/>
+                        <constraint firstItem="V0I-nu-L3O" firstAttribute="top" secondItem="7iA-0b-Soh" secondAttribute="bottom" constant="-55" id="K3J-hW-GfW"/>
+                        <constraint firstAttribute="centerY" secondItem="7iA-0b-Soh" secondAttribute="centerY" constant="140" id="L1X-ib-mgg"/>
+                        <constraint firstItem="Ysa-Mf-QTc" firstAttribute="top" secondItem="7iA-0b-Soh" secondAttribute="bottom" constant="30" id="VjC-1i-eAu"/>
+                        <constraint firstItem="7iA-0b-Soh" firstAttribute="centerX" secondItem="vBb-rG-GxJ" secondAttribute="centerX" id="eNb-mC-AYx"/>
+                        <constraint firstAttribute="centerX" secondItem="7iA-0b-Soh" secondAttribute="centerX" id="lzQ-Ko-aAm"/>
+                        <constraint firstAttribute="centerX" secondItem="V0I-nu-L3O" secondAttribute="centerX" id="tms-KM-1bs"/>
+                        <constraint firstItem="vBb-rG-GxJ" firstAttribute="top" secondItem="1ay-uo-6ZI" secondAttribute="bottom" constant="14" id="uoY-DP-ykh"/>
+                        <constraint firstAttribute="centerX" secondItem="1ay-uo-6ZI" secondAttribute="centerX" constant="-168" id="ygI-Bk-pj9"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="4Lh-zC-HIR" secondAttribute="bottom" id="59d-1o-nDD"/>
+                <constraint firstItem="4Lh-zC-HIR" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="5ne-bg-xXs"/>
+                <constraint firstAttribute="trailing" secondItem="4Lh-zC-HIR" secondAttribute="trailing" id="eps-cd-KPl"/>
+                <constraint firstItem="4Lh-zC-HIR" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="h70-dK-RUP"/>
+            </constraints>
+        </view>
+    </objects>
+    <resources>
+        <image name="effect_light" width="375" height="375"/>
+        <image name="icon_radbag.png" width="198" height="155"/>
+        <image name="rb_close" width="23" height="23"/>
+    </resources>
+</document>

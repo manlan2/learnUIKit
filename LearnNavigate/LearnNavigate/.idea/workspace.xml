@@ -2,68 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8a6a323-190d-4d9c-b8db-d22e8edcb651" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets.xcassets/icon_radbag-1.imageset/icon_radbag@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets.xcassets/icon_radbag.imageset/icon_radbag@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LearnNavigate/icon_radbag@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets.xcassets/icon_radbag-1.imageset/Contents.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets.xcassets/icon_radbag.imageset/Contents.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/LearnNavigate/Assets.xcassets/AppIcon.appiconset/Contents.json" afterPath="$PROJECT_DIR$/Assets.xcassets/AppIcon.appiconset/Contents.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/LearnNavigate/Assets.xcassets/Contents.json" afterPath="$PROJECT_DIR$/Assets.xcassets/Contents.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/LearnNavigate/Assets.xcassets/image_00000.imageset/Contents.json" afterPath="$PROJECT_DIR$/Assets.xcassets/image_00000.imageset/Contents.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/LearnNavigate/Assets.xcassets/image_00000.imageset/image_00000.png" afterPath="$PROJECT_DIR$/Assets.xcassets/image_00000.imageset/image_00000.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/LearnNavigate/Assets.xcassets/image_00001.imageset/Contents.json" afterPath="$PROJECT_DIR$/Assets.xcassets/image_00001.imageset/Contents.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/LearnNavigate/Assets.xcassets/image_00001.imageset/image_00001.png" afterPath="$PROJECT_DIR$/Assets.xcassets/image_00001.imageset/image_00001.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/LearnNavigate/Assets.xcassets/image_00002.imageset/Contents.json" afterPath="$PROJECT_DIR$/Assets.xcassets/image_00002.imageset/Contents.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/LearnNavigate/Assets.xcassets/image_00002.imageset/image_00002.png" afterPath="$PROJECT_DIR$/Assets.xcassets/image_00002.imageset/image_00002.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/LearnNavigate/Assets.xcassets/image_00003.imageset/Contents.json" afterPath="$PROJECT_DIR$/Assets.xcassets/image_00003.imageset/Contents.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/LearnNavigate/Assets.xcassets/image_00003.imageset/image_00003.png" afterPath="$PROJECT_DIR$/Assets.xcassets/image_00003.imageset/image_00003.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/LearnNavigate/Assets.xcassets/image_00004.imageset/Contents.json" afterPath="$PROJECT_DIR$/Assets.xcassets/image_00004.imageset/Contents.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/LearnNavigate/Assets.xcassets/image_00004.imageset/image_00004.png" afterPath="$PROJECT_DIR$/Assets.xcassets/image_00004.imageset/image_00004.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/LearnNavigate/Assets.xcassets/image_00005.imageset/Contents.json" afterPath="$PROJECT_DIR$/Assets.xcassets/image_00005.imageset/Contents.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/LearnNavigate/Assets.xcassets/image_00005.imageset/image_00005.png" afterPath="$PROJECT_DIR$/Assets.xcassets/image_00005.imageset/image_00005.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/LearnNavigate/Assets.xcassets/image_00006.imageset/Contents.json" afterPath="$PROJECT_DIR$/Assets.xcassets/image_00006.imageset/Contents.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/LearnNavigate/Assets.xcassets/image_00006.imageset/image_00006.png" afterPath="$PROJECT_DIR$/Assets.xcassets/image_00006.imageset/image_00006.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/LearnNavigate/Assets.xcassets/image_00007.imageset/Contents.json" afterPath="$PROJECT_DIR$/Assets.xcassets/image_00007.imageset/Contents.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/LearnNavigate/Assets.xcassets/image_00007.imageset/image_00007.png" afterPath="$PROJECT_DIR$/Assets.xcassets/image_00007.imageset/image_00007.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/LearnNavigate/Assets.xcassets/image_00008.imageset/Contents.json" afterPath="$PROJECT_DIR$/Assets.xcassets/image_00008.imageset/Contents.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/LearnNavigate/Assets.xcassets/image_00008.imageset/image_00008.png" afterPath="$PROJECT_DIR$/Assets.xcassets/image_00008.imageset/image_00008.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/LearnNavigate/Assets.xcassets/image_00009.imageset/Contents.json" afterPath="$PROJECT_DIR$/Assets.xcassets/image_00009.imageset/Contents.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/LearnNavigate/Assets.xcassets/image_00009.imageset/image_00009.png" afterPath="$PROJECT_DIR$/Assets.xcassets/image_00009.imageset/image_00009.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/LearnNavigate/Assets.xcassets/image_00010.imageset/Contents.json" afterPath="$PROJECT_DIR$/Assets.xcassets/image_00010.imageset/Contents.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/LearnNavigate/Assets.xcassets/image_00010.imageset/image_00010.png" afterPath="$PROJECT_DIR$/Assets.xcassets/image_00010.imageset/image_00010.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/LearnNavigate/Assets.xcassets/image_00011.imageset/Contents.json" afterPath="$PROJECT_DIR$/Assets.xcassets/image_00011.imageset/Contents.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/LearnNavigate/Assets.xcassets/image_00011.imageset/image_00011.png" afterPath="$PROJECT_DIR$/Assets.xcassets/image_00011.imageset/image_00011.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/LearnNavigate/Assets.xcassets/image_00012.imageset/Contents.json" afterPath="$PROJECT_DIR$/Assets.xcassets/image_00012.imageset/Contents.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/LearnNavigate/Assets.xcassets/image_00012.imageset/image_00012.png" afterPath="$PROJECT_DIR$/Assets.xcassets/image_00012.imageset/image_00012.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/LearnNavigate/Assets.xcassets/image_00013.imageset/Contents.json" afterPath="$PROJECT_DIR$/Assets.xcassets/image_00013.imageset/Contents.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/LearnNavigate/Assets.xcassets/image_00013.imageset/image_00013.png" afterPath="$PROJECT_DIR$/Assets.xcassets/image_00013.imageset/image_00013.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/LearnNavigate/Assets.xcassets/image_00014.imageset/Contents.json" afterPath="$PROJECT_DIR$/Assets.xcassets/image_00014.imageset/Contents.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/LearnNavigate/Assets.xcassets/image_00014.imageset/image_00014.png" afterPath="$PROJECT_DIR$/Assets.xcassets/image_00014.imageset/image_00014.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/LearnNavigate/Assets.xcassets/image_00015.imageset/Contents.json" afterPath="$PROJECT_DIR$/Assets.xcassets/image_00015.imageset/Contents.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/LearnNavigate/Assets.xcassets/image_00015.imageset/image_00015.png" afterPath="$PROJECT_DIR$/Assets.xcassets/image_00015.imageset/image_00015.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/LearnNavigate/Assets.xcassets/image_00016.imageset/Contents.json" afterPath="$PROJECT_DIR$/Assets.xcassets/image_00016.imageset/Contents.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/LearnNavigate/Assets.xcassets/image_00016.imageset/image_00016.png" afterPath="$PROJECT_DIR$/Assets.xcassets/image_00016.imageset/image_00016.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/LearnNavigate/Assets.xcassets/image_00017.imageset/Contents.json" afterPath="$PROJECT_DIR$/Assets.xcassets/image_00017.imageset/Contents.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/LearnNavigate/Assets.xcassets/image_00017.imageset/image_00017.png" afterPath="$PROJECT_DIR$/Assets.xcassets/image_00017.imageset/image_00017.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/LearnNavigate/Assets.xcassets/image_00018.imageset/Contents.json" afterPath="$PROJECT_DIR$/Assets.xcassets/image_00018.imageset/Contents.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/LearnNavigate/Assets.xcassets/image_00018.imageset/image_00018.png" afterPath="$PROJECT_DIR$/Assets.xcassets/image_00018.imageset/image_00018.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/LearnNavigate/Assets.xcassets/image_00019.imageset/Contents.json" afterPath="$PROJECT_DIR$/Assets.xcassets/image_00019.imageset/Contents.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/LearnNavigate/Assets.xcassets/image_00019.imageset/image_00019.png" afterPath="$PROJECT_DIR$/Assets.xcassets/image_00019.imageset/image_00019.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/LearnNavigate/Assets.xcassets/image_00020.imageset/Contents.json" afterPath="$PROJECT_DIR$/Assets.xcassets/image_00020.imageset/Contents.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/LearnNavigate/Assets.xcassets/image_00020.imageset/image_00020.png" afterPath="$PROJECT_DIR$/Assets.xcassets/image_00020.imageset/image_00020.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/LearnNavigate/Assets.xcassets/image_00021.imageset/Contents.json" afterPath="$PROJECT_DIR$/Assets.xcassets/image_00021.imageset/Contents.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/LearnNavigate/Assets.xcassets/image_00021.imageset/image_00021.png" afterPath="$PROJECT_DIR$/Assets.xcassets/image_00021.imageset/image_00021.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/LearnNavigate/Assets.xcassets/image_00022.imageset/Contents.json" afterPath="$PROJECT_DIR$/Assets.xcassets/image_00022.imageset/Contents.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/LearnNavigate/Assets.xcassets/image_00022.imageset/image_00022.png" afterPath="$PROJECT_DIR$/Assets.xcassets/image_00022.imageset/image_00022.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/LearnNavigate/Assets.xcassets/image_00023.imageset/Contents.json" afterPath="$PROJECT_DIR$/Assets.xcassets/image_00023.imageset/Contents.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/LearnNavigate/Assets.xcassets/image_00023.imageset/image_00023.png" afterPath="$PROJECT_DIR$/Assets.xcassets/image_00023.imageset/image_00023.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/LearnNavigate/Assets.xcassets/image_00024.imageset/Contents.json" afterPath="$PROJECT_DIR$/Assets.xcassets/image_00024.imageset/Contents.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/LearnNavigate/Assets.xcassets/image_00024.imageset/image_00024.png" afterPath="$PROJECT_DIR$/Assets.xcassets/image_00024.imageset/image_00024.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets.xcassets/effect_light.imageset/effect_light@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets.xcassets/rb_close.imageset/rb_close@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets.xcassets/rb_close.imageset/rb_close@3x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets.xcassets/rb_close.imageset/Contents.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LearnNavigate/UIKIt/Animation/AnimVC2.xib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LearnNavigate/UIKIt/Animation/redpackerViewController.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LearnNavigate/UIKIt/Animation/redpackerViewController.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LearnNavigate/UIKIt/Animation/redpackerViewController.xib" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets.xcassets/icon_radbag-1.imageset/icon_radbag@2x.png" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Assets.xcassets/icon_radbag-1.imageset/Contents.json" afterPath="$PROJECT_DIR$/Assets.xcassets/effect_light.imageset/Contents.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LearnNavigate.xcodeproj/project.xcworkspace/xcuserdata/wanhongbin.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="$PROJECT_DIR$/LearnNavigate.xcodeproj/project.xcworkspace/xcuserdata/wanhongbin.xcuserdatad/UserInterfaceState.xcuserstate" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LearnNavigate.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/LearnNavigate.xcodeproj/project.pbxproj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LearnNavigate.xcodeproj/xcuserdata/wanhongbin.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist" afterPath="$PROJECT_DIR$/LearnNavigate.xcodeproj/xcuserdata/wanhongbin.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LearnNavigate/UIKIt/Animation/AnimVC.h" afterPath="$PROJECT_DIR$/LearnNavigate/UIKIt/Animation/AnimVC.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LearnNavigate/AppDelegate.m" afterPath="$PROJECT_DIR$/LearnNavigate/AppDelegate.m" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LearnNavigate/UIKIt/Animation/AnimVC.m" afterPath="$PROJECT_DIR$/LearnNavigate/UIKIt/Animation/AnimVC.m" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -92,8 +45,8 @@
       <file leaf-file-name="AnimVC.m" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/LearnNavigate/UIKIt/Animation/AnimVC.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="615">
-              <caret line="50" column="21" lean-forward="false" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
+            <state relative-caret-position="262">
+              <caret line="62" column="0" lean-forward="true" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -102,9 +55,12 @@
       <file leaf-file-name="UIImageView.h" pinned="false" current-in-tab="false">
         <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIImageView.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="454">
-              <caret line="41" column="66" lean-forward="false" selection-start-line="41" selection-start-column="66" selection-end-line="41" selection-end-column="66" />
-              <folding />
+            <state relative-caret-position="135">
+              <caret line="29" column="75" lean-forward="true" selection-start-line="29" selection-start-column="75" selection-end-line="29" selection-end-column="75" />
+              <folding>
+                <element signature="e#98#131#0" expanded="true" />
+                <element signature="e#2016#2036#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -266,7 +222,7 @@
       <workItem from="1482391913527" duration="542000" />
       <workItem from="1483932429730" duration="449000" />
       <workItem from="1484013058950" duration="3679000" />
-      <workItem from="1484043471368" duration="2169000" />
+      <workItem from="1484043471368" duration="5204000" />
     </task>
     <task id="LOCAL-00001" summary="动画效果">
       <created>1484016544479</created>
@@ -289,15 +245,22 @@
       <option name="project" value="LOCAL" />
       <updated>1484016560071</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="添加动画图片">
+      <created>1484048549803</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1484048549803</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7881000" />
+    <option name="totallyTimeSpent" value="10916000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="975" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09885473" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -305,7 +268,7 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905483" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905483" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32905483" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32905483" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21003501" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -326,7 +289,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="动画效果" />
-    <option name="LAST_COMMIT_MESSAGE" value="动画效果" />
+    <MESSAGE value="添加动画图片" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加动画图片" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -566,16 +530,19 @@
     </entry>
     <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIImageView.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="454">
-          <caret line="41" column="66" lean-forward="false" selection-start-line="41" selection-start-column="66" selection-end-line="41" selection-end-column="66" />
-          <folding />
+        <state relative-caret-position="135">
+          <caret line="29" column="75" lean-forward="true" selection-start-line="29" selection-start-column="75" selection-end-line="29" selection-end-column="75" />
+          <folding>
+            <element signature="e#98#131#0" expanded="true" />
+            <element signature="e#2016#2036#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/LearnNavigate/UIKIt/Animation/AnimVC.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="50" column="21" lean-forward="false" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
+        <state relative-caret-position="262">
+          <caret line="62" column="0" lean-forward="true" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
           <folding />
         </state>
       </provider>

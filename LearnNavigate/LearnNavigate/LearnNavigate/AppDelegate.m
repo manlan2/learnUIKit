@@ -13,6 +13,7 @@
 #import "MyTable1.h"
 #import "SegmentVC.h"  // segControl控制器
 #import "AnimVC.h"
+#import "redpackerViewController.h"
 
 @interface AppDelegate ()
 
@@ -30,13 +31,13 @@
 //    MyTable1 *ctl = [[MyTable1 alloc]init];
 
     // 导航：
-    [self testNavVC];
+//    [self testNavVC];
 
     // 动画
     AnimVC *animVc = [[AnimVC alloc] init];
     self.window.rootViewController = animVc;
     [self.window makeKeyAndVisible];
-
+    
     return YES;
 }
 

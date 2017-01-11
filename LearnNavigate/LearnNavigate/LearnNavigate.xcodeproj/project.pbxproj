@@ -16,6 +16,9 @@
 		7B4CF6FD1E02B7B900517AA0 /* xibViewController2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B4CF6FB1E02B7B900517AA0 /* xibViewController2.xib */; };
 		7B8A6A711E2490A800F9DB9B /* icon_radbag@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B8A6A701E2490A800F9DB9B /* icon_radbag@2x.png */; };
 		7B8A6A731E24FFCC00F9DB9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B8A6A721E24FFCC00F9DB9B /* Assets.xcassets */; };
+		7B8A6A751E25008A00F9DB9B /* AnimVC2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B8A6A741E25008A00F9DB9B /* AnimVC2.xib */; };
+		7B8A6A791E25039800F9DB9B /* redpackerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B8A6A771E25039800F9DB9B /* redpackerViewController.m */; };
+		7B8A6A7A1E25039800F9DB9B /* redpackerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B8A6A781E25039800F9DB9B /* redpackerViewController.xib */; };
 		7B9BAA691E0A2C040001788F /* SegmentVC1.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B9BAA681E0A2C040001788F /* SegmentVC1.m */; };
 		7B9BAA6C1E0A2C4A0001788F /* SegmentVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B9BAA6B1E0A2C4A0001788F /* SegmentVC.m */; };
 		7BBBB0751E00E32E00E983FB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BBBB0741E00E32E00E983FB /* main.m */; };
@@ -44,6 +47,10 @@
 		7B4CF6FB1E02B7B900517AA0 /* xibViewController2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = xibViewController2.xib; sourceTree = "<group>"; };
 		7B8A6A701E2490A800F9DB9B /* icon_radbag@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_radbag@2x.png"; sourceTree = "<group>"; };
 		7B8A6A721E24FFCC00F9DB9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7B8A6A741E25008A00F9DB9B /* AnimVC2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AnimVC2.xib; sourceTree = "<group>"; };
+		7B8A6A761E25039800F9DB9B /* redpackerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = redpackerViewController.h; sourceTree = "<group>"; };
+		7B8A6A771E25039800F9DB9B /* redpackerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = redpackerViewController.m; sourceTree = "<group>"; };
+		7B8A6A781E25039800F9DB9B /* redpackerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = redpackerViewController.xib; sourceTree = "<group>"; };
 		7B9BAA671E0A2C040001788F /* SegmentVC1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegmentVC1.h; sourceTree = "<group>"; };
 		7B9BAA681E0A2C040001788F /* SegmentVC1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SegmentVC1.m; sourceTree = "<group>"; };
 		7B9BAA6A1E0A2C4A0001788F /* SegmentVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegmentVC.h; sourceTree = "<group>"; };
@@ -198,6 +205,10 @@
 			isa = PBXGroup;
 			children = (
 				A0035811BFB3223B908F24B9 /* AnimVC.m */,
+				7B8A6A761E25039800F9DB9B /* redpackerViewController.h */,
+				7B8A6A771E25039800F9DB9B /* redpackerViewController.m */,
+				7B8A6A781E25039800F9DB9B /* redpackerViewController.xib */,
+				7B8A6A741E25008A00F9DB9B /* AnimVC2.xib */,
 				A00352F977BE4A3976ED8BE2 /* AnimVC.h */,
 			);
 			path = Animation;
@@ -280,7 +291,9 @@
 			files = (
 				7B8A6A711E2490A800F9DB9B /* icon_radbag@2x.png in Resources */,
 				7BBBB0831E00E32E00E983FB /* LaunchScreen.storyboard in Resources */,
+				7B8A6A7A1E25039800F9DB9B /* redpackerViewController.xib in Resources */,
 				7BBBB07E1E00E32E00E983FB /* Main.storyboard in Resources */,
+				7B8A6A751E25008A00F9DB9B /* AnimVC2.xib in Resources */,
 				A003509F645248CCB5E9016B /* xibViewController.xib in Resources */,
 				7B120BE81E090B0B0023FDE2 /* myCell1.xib in Resources */,
 				A003564E3DD1822941E264DC /* 2view.xib in Resources */,
@@ -301,6 +314,7 @@
 				7BBBB0781E00E32E00E983FB /* AppDelegate.m in Sources */,
 				7B120BE71E090B0B0023FDE2 /* myCell1.m in Sources */,
 				7B120BEB1E090CE10023FDE2 /* myCell2-code.m in Sources */,
+				7B8A6A791E25039800F9DB9B /* redpackerViewController.m in Sources */,
 				7B4CF6FC1E02B7B900517AA0 /* xibViewController2.m in Sources */,
 				7BBBB0751E00E32E00E983FB /* main.m in Sources */,
 				7B120BE31E0907820023FDE2 /* MyTable1.m in Sources */,
